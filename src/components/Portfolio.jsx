@@ -3,7 +3,6 @@ import pc2 from '../assets/Portfolio/pc2.jpg'
 import pc3 from '../assets/Portfolio/pc3.jpg'
 import pc4 from '../assets/Portfolio/pc4.jpg'
 import pc5 from '../assets/Portfolio/px5.jpg'
-import pc6 from '../assets/Portfolio/pc6.jpg'
 import pc7 from '../assets/Portfolio/pc7.jpg'
 import pc8 from '../assets/Portfolio/pc8.jpg'
 import pc9 from '../assets/Portfolio/pc9.jpg'
@@ -41,12 +40,6 @@ export default function Porfolio() {
       src: pc5,
       linkCode: 'https://github.com/momo-amon/iPhone-web',
       Demo: 'https://momo-amon.github.io/iPhone-web/'
-    },
-    {
-      id: 6,
-      src: pc6,
-      linkCode: 'https://github.com/momo-amon/Nike',
-      Demo: 'https://momo-amon.github.io/fiverr-website/'
     },
     {
       id: 7,

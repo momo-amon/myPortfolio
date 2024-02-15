@@ -21,9 +21,6 @@ export default function About() {
               Through my coursework and hands-on experience, I have gained proficiency in HTML, CSS, JavaScript,
               and various front-end frameworks. My goal is to create seamless and responsive
               web applications that deliver an optimal user experience.</p>
-            <br />
-            <p className="text-xl">Overall, I am enthusiastic about the continuous growth and innovation in the field of front-end development,
-              and I am committed to contributing my skills and knowledge to create impactful and user-centric web experiences.</p>
           </div>
         </div>
       </div>
