@@ -1,0 +1,13 @@
+.icon {
+  animation: icontranstion .7s linear infinite alternate-reverse;
+}
+
+@keyframes icontranstion {
+  0% {
+    transform: translateY(-0.2rem);
+  }
+
+  100% {
+    transform: translateY(.2rem);
+  }
+}
