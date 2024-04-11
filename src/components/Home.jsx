@@ -1,4 +1,4 @@
-import Momo from '../assets/momo.jpg'
+import Momo from '../assets/Portfolio/momo.png'
 import { IoIosArrowForward } from "react-icons/io";
 // import { useState, useEffect } from 'react';
 import { Typewriter } from 'react-simple-typewriter'
@@ -8,7 +8,7 @@ import { Link } from 'react-scroll'
 function Home() {
 
   return (
-    <div name="Home" className='h-screen w-full bg-gradient-to-b from-black to-gray-800 via-black '>
+    <div name="Home" className='h-screen sm:p b-4 w-full bg-gradient-to-b from-black to-gray-800 via-black '>
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className='flex flex-col justify-center h-full '>
           <h2 className='text-4xl sm:text-6xl font-bold text-white'>I&rsquo;m a front-end web Developer</h2>
@@ -37,7 +37,7 @@ function Home() {
           </div>
         </div>
         <div>
-          <img src={Momo} alt="My picture" className='rounded-[30px] w-4/6 mx-auto' />
+          <img src={Momo} alt="My picture" className='rounded-[50px] w-[400px] md:w-[500px] mx-auto' />
         </div>
       </div>
     </div>

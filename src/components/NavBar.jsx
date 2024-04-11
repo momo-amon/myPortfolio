@@ -32,7 +32,7 @@ export default function NavBar() {
     <div>
       <div className="flex justify-between items-center w-full h-14 bg-black px-20 text-white">
         <div>
-          <h1 className="text-2xl"> <span className=" font-bold">M</span>o<span className=" font-bold">M</span>o</h1>
+          <h1 className="text-2xl">Mo&rsquo;men</h1>
         </div>
         <ul className="md:flex hidden">
           {Nav.map(Links => (
