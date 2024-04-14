@@ -5,6 +5,7 @@ import bootstrap from '../assets/icons/icons8-bootstrap-144.png'
 import tailwind from '../assets/icons/icons8-tailwind-css-144.png'
 import react from '../assets/icons/icons8-react-80.png'
 import github from '../assets/icons/icons8-github-144.png'
+import nextJs from "../assets/icons/icons8-nextjs-48.png"
 
 export default function Experience() {
   const icons = [
@@ -50,6 +51,12 @@ export default function Experience() {
       name: 'GitHub',
       style: 'shadow-gray-400 , hover:shadow-gray-500'
     },
+    {
+      id: 8,
+      src: nextJs,
+      name: 'NextJs',
+      style: 'shadow-white , hover:shadow-gray-500'
+    }
   ]
   return (
     <div name="Experience" className=' bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
